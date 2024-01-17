@@ -1,4 +1,6 @@
 # PowerBI-Spotify-user-report-dashboard
+## Dashboard Snapshot
+![image](https://github.com/SaroashDS/PowerBI-Spotify-user-report-dashboard/assets/144798692/a0cd348d-9bca-43da-a0cb-0cb5983295a4)
 
 ### Dashboard Link : https://studentuetedupk-my.sharepoint.com/:u:/g/personal/2018me140_student_uet_edu_pk/ESHECpwa8vlIqeI_VK-ANKgB9Ji7AzSpl-TteZh5-pDNBA?e=BCIaa9
 
@@ -20,27 +22,44 @@ This dashboard aims to provide comprehensive insights into music streaming data,
        = Total Streams: Represents the overall stream count.
        = Top Song vs. Average: Compares the streams of the top song against the average streams.
    - Visualizations:
-        1. Bar Chart (Top Tracks):
+        1. Bar Chart (Top Tracks by # of streams):
         
               - X-Axis: Track names
               - Y-Axis: Stream counts
-              - Insight: Visual representation of top tracks and their popularity.
-         
-        2. Line Chart (Stream Trend):
+              - Insight: Visual representation of top tracks and their popularity w.r.t the number of streams.
+           
+                ![image](https://github.com/SaroashDS/PowerBI-Spotify-user-report-dashboard/assets/144798692/8312eeb9-17c3-4187-b739-dc5227b43915)
+    
+        2. Line Chart (Track by release date):
         
               - X-Axis: Release dates
               - Y-Axis: Stream counts
               - Insight: Depicts the trend in streaming over time.
+  
+                ![image](https://github.com/SaroashDS/PowerBI-Spotify-user-report-dashboard/assets/144798692/80dfc9b8-f408-45a5-a0bd-7526b3ee8ac3)
+
         3. Heat Map (Energy Distribution):
         
               - X-Axis: Energy levels
               - Y-Axis: Stream counts
               - Insight: Highlights the distribution of energy levels across tracks.
+  
+                ![image](https://github.com/SaroashDS/PowerBI-Spotify-user-report-dashboard/assets/144798692/0f1a4671-447c-4b26-8bf2-7cb022b7d116)
+
         4. KPI Cards:
         
               - Average Streams: Displays the average stream count.
-              - Top Song Streams: Displays stream count for the top song.
+                
+                ![image](https://github.com/SaroashDS/PowerBI-Spotify-user-report-dashboard/assets/144798692/a39ef360-4106-4db7-bcae-4526c0a7a22b)
+                
+              - Top Song Streams Vs Average: Displays stream count for the top song.
+                
+                ![image](https://github.com/SaroashDS/PowerBI-Spotify-user-report-dashboard/assets/144798692/98609639-54ee-47b2-ba40-f2094522d39d)
+                
               - Top Artist Streams: Displays stream count for the top artist.
+                
+                ![image](https://github.com/SaroashDS/PowerBI-Spotify-user-report-dashboard/assets/144798692/5c578dd1-5e6f-4d0b-aa8f-188ab25a5e7a)
+                
 5. DAX Measures:
    1.  Top Song Streams:
        - Calculates the stream count for the top song.
@@ -71,130 +90,39 @@ This dashboard aims to provide comprehensive insights into music streaming data,
  - Adjusted chart sizes, colors, and labels for improved readability.
  - Customized themes to match the aesthetics of the music streaming industry.
  - The hex codes for spotify theme were grabbed from https://www.color-hex.com/color-palette/53188
+ - Created a custom structure on powerpoint and used it on power BI
+   
 
-![Snap_Count](https://user-images.githubusercontent.com/102996550/174090154-424dc1a4-3ff7-41f8-9617-17a2fb205825.jpg)
+![image](https://github.com/SaroashDS/PowerBI-Spotify-user-report-dashboard/assets/144798692/de1047d6-af88-4750-a020-471dc86440a3)
 
-        
- - Step 16 : New measure was created to find  % of customers,
- 
- Following DAX expression was written to find % of customers,
- 
-         % Customers = (DIVIDE(airline_passenger_satisfaction[Count of Customers], 129880)*100)
- 
- A card visual was used to represent this perecntage.
- 
- Snap of % of customers who preferred business class
- 
- ![Snap_Percentage](https://user-images.githubusercontent.com/102996550/174090653-da02feb4-4775-4a95-affb-a211ca985d07.jpg)
+7. Finalization:
+ - Conducted user testing to ensure the dashboard's effectiveness.
+ - Published the dashboard for broader use.
 
- 
- - Step 17 : New measure was created to calculate total distance travelled by flights & a card visual was used to represent total distance.
- 
- Following DAX expression was written to find total distance,
- 
-         Total Distance Travelled = SUM(airline_passenger_satisfaction[Flight Distance])
-    
- A card visual was used to represent this total distance.
- 
- 
- ![Snap_3](https://user-images.githubusercontent.com/102996550/174091618-bf770d6c-34c6-44d4-9f5e-49583a6d5f68.jpg)
- 
- - Step 18 : The report was then published to Power BI Service.
- 
- 
-![Publish_Message](https://user-images.githubusercontent.com/102996550/174094520-3a845196-97e6-4d44-8760-34a64abc3e77.jpg)
+## Major Insights
 
-# Snapshot of Dashboard (Power BI Service)
+- Top Tracks:
 
-![dashboard_snapo](https://user-images.githubusercontent.com/102996550/174096257-11f1aae5-203d-44fc-bfca-25d37faf3237.jpg)
+Identified the most-streamed tracks, aiding in playlist curation.
 
- 
- # Report Snapshot (Power BI DESKTOP)
+- Stream Trends:
 
- 
-![Dashboard_upload](https://user-images.githubusercontent.com/102996550/174074051-4f08287a-0568-4fdf-8ac9-6762e0d8fa94.jpg)
+Analyzed trends over time, identifying periods of increased or decreased streaming activity.
 
-# Insights
+- Energy Distribution:
 
-A single page report was created on Power BI Desktop & it was then published to Power BI Service.
+Explored the distribution of energy levels across tracks, helping in genre-specific analysis.
 
-Following inferences can be drawn from the dashboard;
+- Top Artist Performance:
 
-### [1] Total Number of Customers = 129880
+Evaluated the stream counts for the top artist, indicating their popularity.
 
-   Number of satisfied Customers (Male) = 28159 (21.68 %)
+- Average Stream Count:
 
-   Number of satisfied Customers (Female) = 28269 (21.76 %)
+Provided a benchmark for evaluating the success of tracks and artists.
 
-   Number of neutral/unsatisfied customers (Male) = 35822 (27.58 %)
+## Use Case
+Music streaming platforms can leverage this dashboard to understand user preferences, optimize playlists, and make informed decisions about artist collaborations and promotions.
 
-   Number of neutral/unsatisfied customers (Female) = 37630 (28.97 %)
-
-
-           thus, higher number of customers are neutral/unsatisfied.
-           
-### [2] Average Ratings
-
-    a) Baggage Handling - 3.63/5
-    b) Check-in Service - 3.31/5
-    c) Cleanliness - 3.29/5
-    d) Ease of online booking - 2.88/5
-    e) Food & Drink - 3.21/5
-    f) In-flight Entertainment - 3.36/5
-    g) In-flight service - 3.64/5
-    h) In-flight Wifi service - 2.81/5
-    i) Leg room service - 3.37/5
-    j) On-board service - 3.38/5
-    k) Online boarding - 3.33/5
-    l) Seat comfort - 3.44/5
-    m) Departure & arrival convenience - 3.22/5
-  
-  while calculating average rating, null values have been ignored as they were not relevant for some customers. 
-  
-  These ratings will change if different visual filters will be applied.  
-  
-  ### [3] Average Delay 
-  
-      a) Average delay in arrival(minutes) - 15.09
-      b) Average delay in departure(minutes) - 14.71
-Average delay will change if different visual filters will be applied.
-
- ### [4] Some other insights
- 
- ### Class
- 
- 1.1) 47.87 % customers travelled by Business class.
- 
- 1.2) 44.89 % customers travelled by Economy class.
- 
- 1.3) 7.25 % customers travelled by Economy plus class.
- 
-         thus, maximum customers travelled by Business class.
- 
- ### Age Group
- 
- 2.1)  21.69 % customers belong to '0-25' age group.
- 
- 2.2)  52.44 % customers belong to '25-50' age group.
- 
- 2.3)  25.57 % customers belong to '50-75' age group.
- 
- 2.4)  0.31 % customers belong to '75-100' age group.
- 
-         thus, maximum customers belong to '25-50' age group.
-         
-### Customer Type
-
-3.1) 18.31 % customers have customer type 'First time'.
-
-3.2) 81.69 % customers have customer type 'returning'.
-       
-       thus, more customers have customer type 'returning'.
-
-### Type of travel
-
-4.1) 69.06 % customers have travel type 'Business'.
-
-4.2) 30.94 % customers have travel type 'Personal'.
-
-        thus, more customers have travel type 'Business'.
+## Conclusion
+This dashboard serves as a powerful tool for extracting actionable insights from music streaming data, empowering stakeholders in the music industry to make strategic decisions.
