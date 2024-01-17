@@ -44,7 +44,8 @@ This dashboard aims to provide comprehensive insights into music streaming data,
               - Y-Axis: Stream counts
               - Insight: Highlights the distribution of energy levels across tracks.
   
-                ![image](https://github.com/SaroashDS/PowerBI-Spotify-user-report-dashboard/assets/144798692/0f1a4671-447c-4b26-8bf2-7cb022b7d116)
+                ![image](https://github.com/SaroashDS/PowerBI-Spotify-user-report-dashboard/assets/144798692/d7b1225d-11ee-425d-bbe7-d4dde7aa44e8)
+
 
         4. KPI Cards:
         
@@ -105,21 +106,36 @@ This dashboard aims to provide comprehensive insights into music streaming data,
 
 Identified the most-streamed tracks, aiding in playlist curation.
 
+![image](https://github.com/SaroashDS/PowerBI-Spotify-user-report-dashboard/assets/144798692/d962222b-bc31-44a2-b77c-1dc537ea8731)
+
+
 - Stream Trends:
 
 Analyzed trends over time, identifying periods of increased or decreased streaming activity.
+
+![image](https://github.com/SaroashDS/PowerBI-Spotify-user-report-dashboard/assets/144798692/e37bbc13-7697-4f06-a911-abe135d54d31)
+
 
 - Energy Distribution:
 
 Explored the distribution of energy levels across tracks, helping in genre-specific analysis.
 
+![image](https://github.com/SaroashDS/PowerBI-Spotify-user-report-dashboard/assets/144798692/baae567d-977b-433c-b999-04f25f240248)
+
+
 - Top Artist Performance:
 
 Evaluated the stream counts for the top artist, indicating their popularity.
 
+![image](https://github.com/SaroashDS/PowerBI-Spotify-user-report-dashboard/assets/144798692/a1e19096-d85a-4d7b-9327-794fe122ede8)
+
+
 - Average Stream Count:
 
 Provided a benchmark for evaluating the success of tracks and artists.
+
+![image](https://github.com/SaroashDS/PowerBI-Spotify-user-report-dashboard/assets/144798692/a3e6bdd4-9522-4ad1-a6e6-7cd82dfebc9b)
+
 
 ## Use Case
 Music streaming platforms can leverage this dashboard to understand user preferences, optimize playlists, and make informed decisions about artist collaborations and promotions.
